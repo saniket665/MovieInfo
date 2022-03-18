@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieInfo: Explore Top 20 Trending Movies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">
+        <h2>Movie<span>Info</span></h2>
+      </div>
+      <ul class="links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="favourites.html">Favourites</a></li>
+      </ul>
+      <div class="searchbar">
+        <input type="search" class="search" placeholder="Search Movies" />
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="img/img1.jpg" class="slide-img" alt="" />
+          <div class="slide-info">
+            <h3 class="slide-title">Spider-Man: No Way Home</h3>
+            <p class="slide-overview">
+              Peter Parker is unmasked and no longer able to separate his normal
+              life from the high-stakes of being a super-hero. When he asks for
+              help from Doctor Strange the stakes become even more dangerous,
+              forcing him to discover what it truly means to be Spider-Man.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img/img4.jpg" class="slide-img" alt="" />
+          <div class="slide-info">
+            <h3 class="slide-title">Clifford the Big Red Dog</h3>
+            <p class="slide-overview">
+              As Emily struggles to fit in at home and at school, she discovers
+              a small red puppy who is destined to become her best friend. When
+              Clifford magically undergoes one heck of a growth spurt, becomes a
+              gigantic dog and attracts the attention of a genetics company,
+              Emily and her Uncle Casey have to fight the forces of greed as
+              they go on the run across New York City. Along the way, Clifford
+              affects the lives of everyone around him and teaches Emily and her
+              uncle the true meaning of acceptance and unconditional love.
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img/img8.jpg" class="slide-img" alt="" />
+          <div class="slide-info">
+            <h3 class="slide-title">Encanto</h3>
+            <p class="slide-overview">
+              The tale of an extraordinary family, the Madrigals, who live
+              hidden in the mountains of Colombia, in a magical house, in a
+              vibrant town, in a wondrous, charmed place called an Encanto. The
+              magic of the Encanto has blessed every child in the family with a
+              unique gift from super strength to the power to heal—every child
+              except one, Mirabel. But when she discovers that the magic
+              surrounding the Encanto is in danger, Mirabel decides that she,
+              the only ordinary Madrigal, might just be her exceptional family's
+              last hope.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h3 class="trending-title">Top Trendings</h3>
+      <div class="card-container"></div>
+    </div>
+    <script src="moviedata.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
